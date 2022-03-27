@@ -178,7 +178,7 @@ TextureImporter:
     second: 0x72_16x16DungeonTileset.v4_57
   - first:
       213: 782103835994319988
-    second: 0x72_16x16DungeonTileset.v4_58
+    second: floor_clean
   - first:
       213: 4409113622068996459
     second: 0x72_16x16DungeonTileset.v4_59
@@ -2059,7 +2059,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_16x16DungeonTileset.v4_58
+      name: floor_clean
       rect:
         serializedVersion: 2
         x: 32
