@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
+        // GameObject.DontDestroyOnLoad(this);
         boxCollider = GetComponent<BoxCollider2D>();
     }
 
