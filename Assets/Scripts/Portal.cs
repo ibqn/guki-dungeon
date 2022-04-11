@@ -5,6 +5,7 @@ public class Portal : Collidable
 {
     [SerializeField]
     private string[] sceneNames;
+
     protected override void OnCollide(Collider2D collider)
     {
         // base.OnCollide(collider);
