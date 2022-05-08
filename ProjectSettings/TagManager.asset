@@ -44,12 +44,12 @@ TagManager:
   - name: Floor
     uniqueID: 2311433911
     locked: 0
-  - name: Actor
-    uniqueID: 3545135071
-    locked: 0
   - name: Interactable
     uniqueID: 1724313031
     locked: 0
   - name: Decoration
     uniqueID: 3132438465
+    locked: 0
+  - name: Actor
+    uniqueID: 3545135071
     locked: 0
