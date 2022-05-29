@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FloatingText : MonoBehaviour
+public class FloatingText
 {
     private bool active;
     public GameObject GameObjectSource { get; set; }

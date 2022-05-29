@@ -29,11 +29,18 @@ public class GameManager : MonoBehaviour
     public List<int> weaponPrices;
     public List<int> xpTable;
 
-    public Player player;
-    public FloatingText floatingText;
+    [SerializeField]
+    private Player player;
+    [SerializeField]
+    private FloatingTextManager floatingTextManager;
 
     public GameState gameState;
 
+
+    public void ShowText(string message, int fontSize, Color color, Vector3 position, Vector3 motion, float duration)
+    {
+        floatingTextManager.Show(message, fontSize, color, position, motion, duration);
+    }
 
     public void SaveState()
     {
