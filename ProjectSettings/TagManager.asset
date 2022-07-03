@@ -53,3 +53,6 @@ TagManager:
   - name: Actor
     uniqueID: 3545135071
     locked: 0
+  - name: Weapon
+    uniqueID: 1910943103
+    locked: 0
